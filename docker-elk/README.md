@@ -263,7 +263,7 @@ instructions about the index pattern configuration.
 
 #### On the command line
 
-Create an index pattern via the Kibana API:
+Create an index pattern via the Kibana API and replace `<your generated elastic password>` with your elastic password:
 
 ```console
 $ curl -XPOST -D- 'http://localhost:5601/api/saved_objects/index-pattern' \
@@ -274,7 +274,7 @@ $ curl -XPOST -D- 'http://localhost:5601/api/saved_objects/index-pattern' \
 ```
 
 The created pattern will automatically be marked as the default index pattern as soon as the Kibana UI is opened for the
-first time.
+first time. If you already have Kibana UI open, refresh your Kibana web UI webpage.
 
 ## Configuration
 
