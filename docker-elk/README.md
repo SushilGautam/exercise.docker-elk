@@ -218,7 +218,19 @@ browser and use the following credentials to log in:
 * user: *elastic*
 * password: *\<your generated elastic password>*
 
-Now that the stack is running, you can go ahead and inject some log entries. The shipped Logstash configuration allows
+Now that the stack is running, you can go ahead and:
+1. Add Sample Data by clicking `Add Data` then `Sample Data` or by opening <http://localhost:5601/app/home#/tutorial_directory> in a web browser after logging in. Then click the `Add data` button for the Sample Data you wish to add, such as `Sample web logs`. That "Add data" button will now read "View Data" and has a drop-down arrow. Click it to view the:
+* Dashboard
+* Canvas
+* Map
+* Logs
+* Graph
+* ML Jobs
+
+OR
+
+2. Inject some log entries:
+The shipped Logstash configuration allows
 you to send content via TCP:
 
 ```console
