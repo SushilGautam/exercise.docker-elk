@@ -114,6 +114,7 @@ yellow open   metricbeat-6.1.2-2018.01.25 T_8jrMFoRYqL3IpZk1zU4Q   1   1      15
 
 * Click [here](https://elk-docker.readthedocs.io/) to view more detailed instructions.
 * Click [here](./docker-elk/README.md) to view the original `README.md`
+* Click [here](https://logz.io/blog/elk-stack-on-docker/) to view the original article.
 
 
 
